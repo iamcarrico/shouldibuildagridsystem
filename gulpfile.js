@@ -4,7 +4,6 @@ var cp = require('child_process');
 var runSequence = require('run-sequence');
 
 
-
 //////////////////////////////
 // Sass compile Task
 //////////////////////////////
@@ -37,9 +36,7 @@ gulp.task('jekyll', ['jekyll-build']);
 //////////////////////////////
 gulp.task('gh-pages', function () {
   return gulp.src("./_site/**/*")
-    .pipe(deploy({
-      cacheDir: '.tmp'
-    })).pipe(gulp.dest('/tmp/gh-pages')); ;
+    .pipe($.ghPages());
 });
 
 
