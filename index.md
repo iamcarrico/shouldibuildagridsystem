@@ -33,3 +33,7 @@ Welcome to the world of designing complex (or simple) grids based upon your desi
 #### Thank you
 
 Much thanks to anybody who has commented or helped this little site with a pull request. Check out the [source code](https://github.com/iamcarrico/shouldibuildagridsystem) on GitHub.
+
+#### Built By
+
+[@iamcarrico](https://twitter.com/iamcarrico "Ian Carrico")
